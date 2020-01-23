@@ -31,7 +31,7 @@
         can_demand_religious_conversion = no
         aggression = 1.5
         raised_vassal_opinion_loss = no
-        hard_to_convery = yes
+        hard_to_convert = yes
         intermarry = zoroastrian_group
         intermarry = egyptian_pagan
         intermarry = hellenic_pagan
