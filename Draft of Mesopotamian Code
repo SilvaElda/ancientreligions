@@ -1,0 +1,39 @@
+    mesopotamian_pagan = { # Mesopotamian
+
+	reformed = mesopotamian_pagan_reformed
+		
+        icon = ?
+        heresy_icon = ?
+
+        ai_convert_other_group = 1
+        ai_convert_same_group = 1
+
+	color = { 0.05 0.97 .94 }
+		
+	scripture_name = THE_ENUMA_ELIS
+        priest_title = ENSI
+	high_god_name = GOD_ANU
+
+	god_names = {
+	    GOD_ANU GOD_KI GOD_ENLIL GOD_EA GOD_NINHURSAG GOD_NANNA-SUEN GOD_SHAMASH GOD_ISHTAR GOD_ERESHKIGAL GOD_NISABA GOD_NABU GOD_NERGAL GOD_NINURTA GOD_MARDUK GOD_ADAD GOD_ASHUR
+	    }
+	evil_god_names = {
+	    GOD_TIAMAT GOD_ABZU GOD_HANBI GOD_PAZUZU
+	    }
+        allow_raiding = yes
+        allow_rivermovement = yes
+        priests_can_marry = no
+        female_temple_holders = yes
+        pc_marriage = yes
+        men_can_take_consorts = yes
+        women_can_take_consorts = yes
+        max_consorts = 3
+        can_demand_religious_conversion = no
+        aggression = 1.5
+        raised_vassal_opinion_loss = no
+        hard_to_convery = yes
+        intermarry = zoroastrian_group
+        intermarry = egyptian_pagan
+        intermarry = hellenic_pagan
+        intermarry = tengri_pagan
+ }
